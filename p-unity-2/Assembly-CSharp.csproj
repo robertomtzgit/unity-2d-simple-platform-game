@@ -65,7 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player Attack.cs" />
+    <Compile Include="Assets\Scripts\Camera Controller.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Player Movemment.cs" />
   </ItemGroup>
   <ItemGroup>
