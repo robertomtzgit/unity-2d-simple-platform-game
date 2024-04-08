@@ -64,11 +64,21 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player Attack.cs" />
-    <Compile Include="Assets\Scripts\Camera Controller.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
-    <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Scripts\Player Movemment.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy_Sideways.cs" />
+    <Compile Include="Assets\Scripts\Enemies\FireTrap.cs" />
+    <Compile Include="Assets\Scripts\Core\Camera Controller.cs" />
+    <Compile Include="Assets\Scripts\Health\Health.cs" />
+    <Compile Include="Assets\Scripts\Health\HealthCollectible.cs" />
+    <Compile Include="Assets\Scripts\Health\Healthbar.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyProjectile.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ArrowTrap.cs" />
+    <Compile Include="Assets\Scripts\Rooms\Room.cs" />
+    <Compile Include="Assets\Scripts\Rooms\Door.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyDamage.cs" />
+    <Compile Include="Assets\Scripts\Player\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Spikehead.cs" />
+    <Compile Include="Assets\Scripts\Player\Player Attack.cs" />
+    <Compile Include="Assets\Scripts\Player\Player Movemment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Character\Read Me.txt" />
