@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
+  - Checkpoint
+  - Trophy
+  - MovingPlatform
+  - ScoreText
   layers:
   - Default
   - TransparentFX
