@@ -66,12 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy\EnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Collectibles\Score.cs" />
-    <Compile Include="Assets\BossHealthBar.cs" />
     <Compile Include="Assets\Scripts\Core\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyFireballHolder.cs" />
     <Compile Include="Assets\Scripts\Core\Camera Controller.cs" />
     <Compile Include="Assets\Scripts\Traps\EnemyDamage.cs" />
-    <Compile Include="Assets\Boss_HabilityBehaviour.cs" />
     <Compile Include="Assets\Scripts\Health\Health.cs" />
     <Compile Include="Assets\Scripts\Traps\ArrowTrap.cs" />
     <Compile Include="Assets\Scripts\Health\HealthCollectible.cs" />
@@ -87,22 +85,24 @@
     <Compile Include="Assets\Scripts\Traps\MovingPlatformFixed.cs" />
     <Compile Include="Assets\Scripts\Traps\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\Traps\FireTrap.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss_IdleBehaviour.cs" />
     <Compile Include="Assets\Scripts\Enemy\FinalBoss.cs" />
     <Compile Include="Assets\Scripts\Player\Projectile.cs" />
     <Compile Include="Assets\Scripts\Enemy\MeleeEnemy.cs" />
-    <Compile Include="Assets\Boss_WalkBehaviour.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\Traps\KillZone.cs" />
     <Compile Include="Assets\Scripts\Traps\Enemy_Sideways.cs" />
     <Compile Include="Assets\Scripts\Enemy\RangedEnemy.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossHealthBar.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerRespawn.cs" />
     <Compile Include="Assets\Scripts\UI\VolumeText.cs" />
     <Compile Include="Assets\Scripts\UI\LoadingManager.cs" />
     <Compile Include="Assets\Scripts\UI\SelectionArrow.cs" />
     <Compile Include="Assets\Scripts\Traps\Spikehead.cs" />
-    <Compile Include="Assets\Boss_IdleBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss_WalkBehaviour.cs" />
     <Compile Include="Assets\Scripts\Player\Player Attack.cs" />
     <Compile Include="Assets\Scripts\Player\Player Movemment.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss_HabilityBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Knight Files\Read Me.txt" />
